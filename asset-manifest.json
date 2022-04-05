@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/b.oniani/static/css/main.d4dbd6e2.css",
+    "main.css": "/b.oniani/static/css/main.5a89e36d.css",
     "main.js": "/b.oniani/static/js/main.633dacc9.js",
     "static/js/787.1ed0c42c.chunk.js": "/b.oniani/static/js/787.1ed0c42c.chunk.js",
     "static/media/author.jpeg": "/b.oniani/static/media/author.3f58b833173531cbef09.jpeg",
@@ -9,12 +9,12 @@
     "static/media/3d_unicode.ttf": "/b.oniani/static/media/3d_unicode.b5043f85f06766e55b62.ttf",
     "static/media/site-logo.svg": "/b.oniani/static/media/site-logo.52a20f1ed1b17847c9919a5222de614f.svg",
     "index.html": "/b.oniani/index.html",
-    "main.d4dbd6e2.css.map": "/b.oniani/static/css/main.d4dbd6e2.css.map",
+    "main.5a89e36d.css.map": "/b.oniani/static/css/main.5a89e36d.css.map",
     "main.633dacc9.js.map": "/b.oniani/static/js/main.633dacc9.js.map",
     "787.1ed0c42c.chunk.js.map": "/b.oniani/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4dbd6e2.css",
+    "static/css/main.5a89e36d.css",
     "static/js/main.633dacc9.js"
   ]
 }
