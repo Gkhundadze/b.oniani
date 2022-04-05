@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/b.oniani/static/css/main.d4dbd6e2.css",
+    "main.js": "/b.oniani/static/js/main.c0671cb8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/b.oniani/static/js/787.1ed0c42c.chunk.js",
+    "static/media/author.jpeg": "/b.oniani/static/media/author.3f58b833173531cbef09.jpeg",
+    "static/media/BPG_Mikhail_Stephan.ttf": "/b.oniani/static/media/BPG_Mikhail_Stephan.8fa47f9317cc934683be.ttf",
+    "static/media/bpg-classic-medium-webfont.ttf": "/b.oniani/static/media/bpg-classic-medium-webfont.ba89967d3296fc9124b5.ttf",
+    "static/media/3d_unicode.ttf": "/b.oniani/static/media/3d_unicode.b5043f85f06766e55b62.ttf",
+    "static/media/site-logo.svg": "/b.oniani/static/media/site-logo.52a20f1ed1b17847c9919a5222de614f.svg",
+    "index.html": "/b.oniani/index.html",
+    "main.d4dbd6e2.css.map": "/b.oniani/static/css/main.d4dbd6e2.css.map",
+    "main.c0671cb8.js.map": "/b.oniani/static/js/main.c0671cb8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/b.oniani/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4dbd6e2.css",
+    "static/js/main.c0671cb8.js"
+  ]
+}
