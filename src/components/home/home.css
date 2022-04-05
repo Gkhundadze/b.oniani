@@ -1,0 +1,103 @@
+.home {
+    background-color: var(--header-footer-background);
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+    padding: 20px 10px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+}
+.author-image {
+    height: 100%;
+    display: block;
+    border-radius: 30px;
+}
+.about-author {
+    padding: 10px 20px;
+    color: aliceblue;
+
+}
+.author-name{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'BPG Mikheil Stefane';
+    letter-spacing: 3px;
+}
+.about-me{
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.author-info{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+@media (max-width: 1170px){
+    .home {
+        flex-direction: column;
+        height: 100%;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+    }
+    .author-image {
+        width: 500px;
+        align-self: center;
+
+    }
+}
+@media (max-width: 991px) {
+    .home {
+        width: 100%;
+        margin-bottom: 30px;
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+    }
+    .author-image {
+        width: 400px;
+    }
+    
+}
+@media (max-width: 769px) {
+    .home {
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+    }
+    .author-image {
+        width: 400px;
+    }
+    
+}
+@media (max-width: 600px) {
+    .home {
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+    }
+    .author-image {
+        width: 300px;
+    }
+    .author-info {
+        line-height: 25px;
+    }
+    
+}
+@media (max-width: 500px) {
+    .home {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .home {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .author-image {
+        width: 250px;
+    }
+    
+}

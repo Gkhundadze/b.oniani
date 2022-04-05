@@ -1,0 +1,112 @@
+@font-face {
+    font-family: '3d-unicode';
+    src: url(./assets/fonts/3d_unicode.ttf);
+}
+@font-face {
+    font-family: 'BPG Mikheil Stefane';
+    src: url(./assets/fonts/BPG_Mikhail_Stephan.ttf);
+}
+@font-face {
+    font-family: 'bpg-classic-medium';
+    src: url(./assets/fonts/bpg-classic-medium-webfont.ttf);
+}
+.App {
+    height: 100%;
+}
+header {
+    background-color: var(--header-footer-background);
+    margin-bottom: 20px;
+}
+nav {
+    padding: 10px 0;
+}
+.logo {
+    display: block;
+    transition: .3s ease-out;
+}
+.logo img{
+    height: 48px;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+.main-nav-ul {
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {    
+    font-family: 'BPG Mikheil Stefane';
+    text-decoration: none;
+    color: #fff;
+    transition: .2s ease-in-out;
+    padding: 5px 8px;
+    display: block;
+}
+.main-nav-ul li:not(:last-child) {
+    margin-right: 20px;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+    color: #e0b9b9;
+}
+.active {
+    transform: scale(1.1);
+    color: #e0b9b9;
+}
+.footer{
+    margin-top: auto;
+    padding: 10px 0;
+    background-color: var(--header-footer-background);
+}
+.social-media .facebook, .youtube, .instagram {
+    margin-right: 20px;
+}
+.social-media a{
+    transition: .3s ease-out;
+}
+.social-media a:hover{
+    transform: scale(1.1);
+}
+.facebook img, .youtube img, .instagram img, .tiktok img{
+    height: 48px;
+}
+/* .facebook, .youtube, .instagram, .tiktok:hover{
+    transform: scale(1.1);
+} */
+
+
+@media (max-width: 769px) {
+    .main-nav-ul li:not(:last-child) {
+        margin-right: 15px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+}
+@media (max-width: 580px) {
+    .main-nav-ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px) {
+    header .container{
+        width: 100%;
+    }
+    .logo img{
+        height: 32px;
+    }
+    .main-nav-ul li:not(:last-child) {
+        margin-right: 3px;
+    }
+    .nav-link{
+        padding: 3px 4px;
+    }
+    .nav-link:hover{
+        transform: scale(1);
+    }
+
+}

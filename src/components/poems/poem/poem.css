@@ -1,0 +1,33 @@
+.poem {
+    width: 480px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    box-shadow: rgba(185, 156, 156, 0.35) 0px 5px 15px;
+    align-self: baseline;
+    background-color: var(--poem-card-background);
+}
+.poem-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid wheat;
+    font-family: 'BPG Mikheil Stefane';
+}
+.poem-itself{
+    font-family: 'bpg-classic-medium';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+@media (max-width: 580px) {
+    .poem-title{
+        font-size: 22px;
+    }
+    .poem-itself{
+        font-size: 18px;
+    }
+}

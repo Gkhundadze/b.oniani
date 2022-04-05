@@ -1,0 +1,43 @@
+.contact {
+    color: red;
+}
+.name-input, .email-input, .send-btn, .subject-input{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.8);
+}
+.name-input:focus-visible, .email-input:focus-visible, .subject-input:focus-visible{
+    outline: 0;
+    box-shadow: rgba(255, 255, 255, 0.35) 5px 10px 20px;
+}
+.name-label, .email-label, .message-label {
+    margin-bottom: 10px;
+}
+
+.message{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(236, 227, 227, 0.35) 0px 5px 15px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 0;
+}
+.message:focus-visible{
+    outline: 0;
+    box-shadow: rgba(255, 255, 255, 0.35) 5px 10px 20px;
+}
+.send-btn {
+    margin-top: 20px;
+    transition: .4s ease-out;
+    cursor: pointer;
+}
+.send-btn:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+}
+a{
+    color: inherit;
+}
+/* variables */
+:root{
+    --header-footer-background: rgba(15, 10, 44, 0.9);
+    --background: #022906;
+    --poem-card-background: rgb(193 160 133 / 70%);
+}
+/* variables */
+
+html, body{
+    height: 100%;
+}
+#root {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--background);
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 95%;
+}
+/* display */
+.df {
+    display: flex;
+}
+.db{
+    display: block;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.fl-wrap {
+    flex-wrap: wrap;
+}
+.fldir-col{
+    flex-direction: column;
+}
+/* colors */
+.color-white{
+    color: #fff;
+}
+.ta-center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}

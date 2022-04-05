@@ -1,0 +1,38 @@
+.error-page{
+    letter-spacing: 2px;
+    min-height: 200px;
+}
+.error-message{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: rgb(216, 54, 54);
+    text-shadow: 1px 1px #ff0000;
+    text-align: center;
+}
+.error-message::before, .error-message::after{
+    content: "\1F612";
+}
+.to-main{
+    padding: 5px 10px;
+    font-size: 22px;
+    transition: .2s ease-out;
+}
+.to-main:hover{
+    color: #f4ff31;
+}
+@media (max-width: 769px) {
+    .error-message {
+        font-size: 28px;
+    }
+    .to-main{
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .error-message {
+        font-size: 18px;
+    }
+    .to-main{
+        font-size: 12px;
+    }
+}
