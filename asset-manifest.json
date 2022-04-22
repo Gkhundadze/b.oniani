@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/b.oniani/static/css/main.f753c008.css",
-    "main.js": "/b.oniani/static/js/main.12989621.js",
+    "main.js": "/b.oniani/static/js/main.0d7fc63e.js",
     "static/js/787.1ed0c42c.chunk.js": "/b.oniani/static/js/787.1ed0c42c.chunk.js",
     "static/media/author.jpeg": "/b.oniani/static/media/author.3f58b833173531cbef09.jpeg",
     "static/media/BPG_Mikhail_Stephan.ttf": "/b.oniani/static/media/BPG_Mikhail_Stephan.8fa47f9317cc934683be.ttf",
@@ -13,11 +13,11 @@
     "static/media/sun.svg": "/b.oniani/static/media/sun.4f202eaec73ceeb5c2612e3fd0bcc567.svg",
     "static/media/moon.svg": "/b.oniani/static/media/moon.24663276c05fe9e5c5d44c7b22966454.svg",
     "main.f753c008.css.map": "/b.oniani/static/css/main.f753c008.css.map",
-    "main.12989621.js.map": "/b.oniani/static/js/main.12989621.js.map",
+    "main.0d7fc63e.js.map": "/b.oniani/static/js/main.0d7fc63e.js.map",
     "787.1ed0c42c.chunk.js.map": "/b.oniani/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f753c008.css",
-    "static/js/main.12989621.js"
+    "static/js/main.0d7fc63e.js"
   ]
 }
